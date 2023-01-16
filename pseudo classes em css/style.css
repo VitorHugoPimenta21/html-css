@@ -1,0 +1,17 @@
+/*As pseudo-classes em CSS são classes especiais que permitem selecionar elementos baseados em suas relações ou estado. Elas são indicadas por um dois-pontos (:) seguido pelo nome da pseudo-classe. Por exemplo, :hover é uma pseudo-classe que permite selecionar um elemento quando o cursor do mouse está sobre ele. Algumas outras pseudo-classes comuns incluem :active, :visited, :focus e :first-child.*/
+
+
+
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: red;
+}
+

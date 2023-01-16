@@ -1,0 +1,39 @@
+medidas absolutas:
+cm , mn, in, px, pt, pc
+
+medidas relativas:
+em, ex, rem, vw, vh, %
+
+
+EM:Referente a altura da Letra M
+EX: Referente a altura da Letra X
+
+para fonte size é recomendado EM e PX
+
+16px = 1em
+
+font-weight: Peso da fonte
+    -lighter
+    -normal
+    -bold
+    -bolder
+    -pode usar valores numericos 
+     de 100 a 900.
+
+Shorthand font:
+1. font-style
+2. font-weight
+3. font-size
+4. font-family
+
+usar no maximo 3 tipos de fontes:
+    - fontes para grandes titulos
+    - fontes para destaques 
+    - fontes para textos normais
+
+tipos de formatos de fontes
+opentype(otf)
+truetype(ttf)
+embedded-opentype
+truetype(Apple advanced typography)
+svg

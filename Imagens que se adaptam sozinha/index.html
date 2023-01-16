@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Imagens adaptativas</title>
+</head>
+<body>
+    <h1>Imagens adaptativas</h1>
+    <p>Com o uso da tag <strong>picture</strong> e utilizando a tag <strong>sorce</strong> é possivel fazer com que as imagens se adaptem aos diversos dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="/imagem/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/imagem/M.png" type="image/png">
+        <img src="Imagem/G.png" alt="Imagem grande">
+    </picture>
+</body>
+</html>

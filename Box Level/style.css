@@ -1,0 +1,43 @@
+/*margin = borda pra fora
+paddin = borda pra dentro
+*/
+
+/*para mudar a caracteristica de um elemento 
+utilizando diplay para mudar o tipo de level*/
+
+h1{/*box  level*/
+    background-color: lime;
+    width: 300px;
+    height: 300px;
+    
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: red;*/
+    border: 10px solid red;
+
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    se todas as margens forem iguais
+    basta apenas colocar uma vez
+    padding: 10px
+    tambem pode se colocar auto.*/
+    padding: 10px 12px 13px 14px;
+
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;*/
+    margin: 20px 20px 40px 20px;
+
+    /*outline-width: 3px;
+    outline-style: dashed;
+    outline-color: blue;*/
+    outline: 3px dashed blue;
+}
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
